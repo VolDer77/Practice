@@ -18,7 +18,7 @@ function guessNumber(number) {
             if (guess === null) {
                 let quit = confirm('Do you want to quit?')
 
-                if (quit == true) {
+                if (quit === true) {
                     return alert('You quit!');
                 }
             }
@@ -42,7 +42,7 @@ function guessNumber(number) {
             }
         }
 
-        if (guess == number) {
+        if (guess === number) {
             return alert(`You won!\nNumber is ${number}.\nGuesses required ${usedGuesses}`);
         }
 
