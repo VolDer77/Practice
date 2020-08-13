@@ -4,4 +4,4 @@ const removeSmallest = arr => {
     newArr.splice(smallestNumb, 1);
     return newArr;
 }
-console.log(removeSmallest([2,3,1,2,3,4]));
+console.log(removeSmallest([2,3,1,2,3,4])); //[2,3,2,3,4]

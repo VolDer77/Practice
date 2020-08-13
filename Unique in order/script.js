@@ -7,4 +7,4 @@ function uniqueInOrder(str) {
     }
     return result;
 }
-console.log(uniqueInOrder([1, 2, 2, 3, 3]));
+console.log(uniqueInOrder([1, 2, 2, 3, 3])); // [1,2,3]
