@@ -1,1 +1,1 @@
-# Practice
+# Practice / some codewars tasks
